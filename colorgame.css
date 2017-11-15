@@ -1,0 +1,44 @@
+body {
+    background-color: #232323;
+    margin: 0px 0px 0px 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+span {
+    text-align: center;
+}
+
+.settings {
+    background: white;
+    height: 40px;
+    text-align: center;
+    
+}
+.settings p {
+    vertical-align: middle;
+    display: inline;
+    
+}
+
+button {
+    
+}
