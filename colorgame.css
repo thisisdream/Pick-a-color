@@ -1,14 +1,19 @@
 body {
     background-color: #232323;
     margin: 0px 0px 0px 0px;
+    font-family: "Vollkorn","Avenir";
 }
 
 h1 {
-    color: white;
     text-align: center;
-    line-height: 120px;
+    color: white;
+    background: steelblue;
+    line-height: 1.1;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
 }
 .square {
     width: 30%;
@@ -16,15 +21,29 @@ h1 {
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 8%;
+    transition: 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
 }
 
 #container {
-    margin: 0 auto;
+    margin: 25px auto;
     max-width: 600px;
+    
 }
 
 span {
     text-align: center;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
 }
 
 .settings {
@@ -40,5 +59,26 @@ span {
 }
 
 button {
-    
+    border: none;
+    background: none;
+    font-family: "Vollkorn","Avenir";
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    outline: none;
+}
+
+.selected {
+    background: steelblue;
+    color: white;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
 }
